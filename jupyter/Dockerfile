@@ -20,6 +20,8 @@ RUN echo 'path-include=/usr/share/locale/ja/LC_MESSAGES/*.mo' > /etc/dpkg/dpkg.c
     nfs-common \
     git \
     wget \
+    make \
+    curl \
     mecab \
     libmecab-dev \
     mecab-ipadic \
