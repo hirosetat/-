@@ -1,4 +1,3 @@
-# FROM rottenfruits/analyticker:common
 FROM ubuntu:18.04
 #install jupyter
 #https://daichan.club/linux/78323
