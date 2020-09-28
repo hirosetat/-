@@ -25,10 +25,10 @@ RUN echo 'path-include=/usr/share/locale/ja/LC_MESSAGES/*.mo' > /etc/dpkg/dpkg.c
     mecab \
     libmecab-dev \
     mecab-ipadic \
-    mecab-ipadic-utf8
-    # && apt-get clean \
-    # && rm -rf /var/cache/apt/archives/* \
-    # && rm -rf /var/lib/apt/lists/*
+    mecab-ipadic-utf8 \
+    && apt-get clean \
+    && rm -rf /var/cache/apt/archives/* \
+    && rm -rf /var/lib/apt/lists/*
 
 # Python
 RUN apt-get update \
