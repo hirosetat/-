@@ -71,12 +71,14 @@ RUN pip install -r /root/requirements.txt
 
 
 #ファイルをappディレクトリに追加
-COPY app.py /app/
+COPY main.py /app/
 
 #ルートディレクトリ設定
-WORKDIR /app
-
+# WORKDIR /app
+EXPOSE 80
 EXPOSE 8000
+EXPOSE 8080
+EXPOSE 8888
 
 
 
